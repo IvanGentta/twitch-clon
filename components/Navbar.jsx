@@ -158,7 +158,7 @@ const Navbar = () => {
                   <div className="py-1">
                     <Menu.Item>
                       {({ active }) => (
-                        <Link href="/account">
+                        <Link href="/Account">
                           <a
                             className={classNames(
                               active
@@ -194,7 +194,7 @@ const Navbar = () => {
           </div>
         ) : (
           <div className="flex items-center">
-            <Link href="/account">
+            <Link href="/Account">
               <button className="px-4 py[6px] rounded-lg font-bold bg-[#9147ff]">
                 Account
               </button>
@@ -229,7 +229,7 @@ const Navbar = () => {
             <Link href="/#categories">Top Categories</Link>
           </li>
           <li onClick={() => setNav(false)} className="p-4 text-3xl font-bold">
-            <Link href="/account">Account</Link>
+            <Link href="/Account">Account</Link>
           </li>
         </ul>
       </div>

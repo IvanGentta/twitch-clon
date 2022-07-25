@@ -84,7 +84,7 @@ const Categories = () => {
         />
         <CategoryItem
           img="https://static-cdn.jtvnw.net/ttv-boxart/509671-285x380.jpg"
-          title="Fitness & health"
+          title="Fitness and health"
           viewers="168k viewers"
           tag1="IRL"
         />

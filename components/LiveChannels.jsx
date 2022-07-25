@@ -64,7 +64,7 @@ const LiveChannels = () => {
         <LiveChannelItem
           img={Live7}
           profile_img="https://static-cdn.jtvnw.net/jtv_user_pictures/25911b2f-6077-4e46-b66e-25f1655f09f6-profile_image-50x50.png"
-          title="JESUS LOVES YOU!!! You'll see ..."
+          title="JESUS LOVES YOU!!! You`'`ll see ..."
           user="coletteleclair"
           game="Just Chatting"
         />

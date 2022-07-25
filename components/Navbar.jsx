@@ -24,7 +24,7 @@ const Navbar = () => {
     <div className="fixed h-14 w-full flex flex-nowrap items-center p-4 bg-[#0e0e10] mb-[2px] z-10">
       {/* Left  */}
       <div className="flex grow items-center justify-start">
-        <Link href="/">
+        <Link href="/" className="flex">
           <a className="flex">
             <Image
               src={Logo}
@@ -137,6 +137,7 @@ const Navbar = () => {
                 <Menu.Button>
                   <Image
                     src={session.user.image}
+                    alt="/"
                     width="43"
                     height="43"
                     className="rounded-full"
@@ -157,17 +158,18 @@ const Navbar = () => {
                   <div className="py-1">
                     <Menu.Item>
                       {({ active }) => (
-                        <a
-                          href="/account"
-                          className={classNames(
-                            active
-                              ? "bg-gray-500 text-gray-100"
-                              : "text-gray-200",
-                            "block px-4 py-2 text-sm"
-                          )}
-                        >
-                          Account
-                        </a>
+                        <Link href="/account">
+                          <a
+                            className={classNames(
+                              active
+                                ? "bg-gray-500 text-gray-100"
+                                : "text-gray-200",
+                              "block px-4 py-2 text-sm"
+                            )}
+                          >
+                            Account
+                          </a>
+                        </Link>
                       )}
                     </Menu.Item>
                     <Menu.Item>
